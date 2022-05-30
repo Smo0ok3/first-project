@@ -1,0 +1,141 @@
+* {
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 600px;
+    max-height: 500px;
+    border-radius: 25px;
+    margin: 0 0 50px 0;
+}
+.top{
+    background-color: #1f2937;
+    padding: 0 200px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.left-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-main button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: solid 1px darkblue;
+    padding: 5px;
+    max-width: 120px;
+}
+.right-main{
+    align-self: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 16px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo {
+    width: 90px;
+    height: 90px;
+    margin: 16px 0;
+    padding: 8px;
+}
+
+p{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+.mini{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.subheader{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    padding: 0 0 16px 0;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    padding: 32px;
+    text-align: center;
+    border: #3882f6;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin: 32px;
+    padding: 32px;
+    text-align: start;
+    background-color: #e5e7eb;
+    margin: 0 100px;
+    padding: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subheader-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 32px;
+    margin: 32px;
+    width: 80vh;
+    gap: 48px;
+    font-size: large;
+}
+.subheader-2 button{
+    font-size: large;
+    background-color: #3882f6;
+    border: rgb(244, 244, 247) solid 2px;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #e5e7eb;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 25px;
+    background-color: #1f2937;
+}
